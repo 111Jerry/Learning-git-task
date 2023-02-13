@@ -15,3 +15,5 @@ all_products = 0
 for values in buying_of_prod.values():
     all_products += len(values)
 print("W sumie kupuję:{} produktów".format(all_products))
+
+print("Ala może i ma kota")
