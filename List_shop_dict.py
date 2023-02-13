@@ -1,6 +1,7 @@
 buying_of_prod = {
     "piekarni": ["chleb", "bułki", "pączki"],
-    "warzywniaka": ["marchew", "seler", "rukola"]
+    "warzywniaka": ["marchew", "seler", "rukola"],
+    "mięsny": ["wątróbka", "kiełbasa", "kurczak"]
 }
 
 print("Lista zakupów", "\n")
