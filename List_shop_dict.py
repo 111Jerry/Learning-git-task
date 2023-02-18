@@ -1,19 +1,13 @@
 buying_of_prod = {
     "piekarni": ["chleb", "bułki", "pączki"],
     "warzywniaka": ["marchew", "seler", "rukola"],
-    "mięsny": ["wątróbka", "kiełbasa", "kurczak"]
 }
 
 print("Lista zakupów", "\n")
-
-for (shop, items) in buying_of_prod.items():
-    items = ",".join(items)
-    items = items.title()
-    print(f"Idę do {shop.capitalize()}", "i kupuję tam:", items)
-
+all_capitalize = []
 all_products = 0
-for values in buying_of_prod.values():
-    all_products += len(values)
-print("W sumie kupuję:{} produktów".format(all_products))
-
-print("Ala może i ma kota")
+for (shop, items) in buying_of_prod.items():
+    all_products += len(items)
+    items = ",".join(items)
+    print(f"Idę do {shop.capitalize()}", "i kupuję tam:", items.title())
+print("W sumie kupuję: {} produktów".format(all_products))
