@@ -11,3 +11,5 @@ for (shop, items) in buying_of_prod.items():
     items = ",".join(items)
     print(f"Idę do {shop.capitalize()}", "i kupuję tam:", items.title())
 print("W sumie kupuję: {} produktów".format(all_products))
+
+print("Zgodnie z poleceniem przesyłam Ci Maciuś serdeczne pozdrowienia")
